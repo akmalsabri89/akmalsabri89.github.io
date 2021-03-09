@@ -1,0 +1,28 @@
+/* Ini adalah file css saya */
+.akmal {
+    color:maroon; 
+    font-size: 40px;
+}
+
+.neko {
+    color:darkorange;
+    font-size: 40px;
+}
+
+p {
+    color: darkgrey;
+    font-size: 24;
+}
+
+img {
+    width: 500px;
+    margin: auto;
+}
+
+body {
+    background-image: url("../images/jackfruit.jpeg");
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+
