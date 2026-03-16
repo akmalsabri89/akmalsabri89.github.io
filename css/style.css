@@ -1,24 +1,77 @@
-/* Ini adalah file css saya */
-.akmal {
-    color:maroon; 
-    font-size: 40px;
+/* Letus Brandworks Brand Guidelines */
+
+:root {
+    --orange: #F26A29;
+    --purple: #2D2B4C;
+    --charcoal: #3B3E3C;
+    --cream: #F3E9E3;
+    --warm-gray: #969097;
 }
 
-.neko {
-    color:darkorange;
-    font-size: 40px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p {
-    color: darkgrey;
-    font-size: 24px;
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.card {
+    text-align: center;
+    padding: 48px 32px;
+    max-width: 480px;
+    width: 100%;
 }
 
 img {
-    width: 500px;
-    margin: auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 3px solid var(--orange);
+    margin-bottom: 28px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+h1 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 12px;
+}
 
+p {
+    font-size: 16px;
+    color: var(--warm-gray);
+    line-height: 1.7;
+    margin-bottom: 36px;
+}
 
+/* pill button */
+.btn {
+    display: inline-block;
+    background-color: var(--orange);
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 36px;
+    border-radius: 999px;
+    transition: opacity 0.2s ease;
+}
 
+.btn:hover {
+    opacity: 0.85;
+}
